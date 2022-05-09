@@ -1,0 +1,37 @@
+.light-dark-mode-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 24px;
+}
+.container {
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+.mode-button {
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 24px;
+  border: none;
+}
